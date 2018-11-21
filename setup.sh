@@ -102,7 +102,7 @@ cat >/etc/pptpd.conf <<END
 option /etc/ppp/options.pptpd
 logwtmp
 localip 192.168.200.1
-remoteip 192.168.200.1-200
+remoteip 192.168.200.10-200
 END
 cat >/etc/ppp/options.pptpd <<END
 name pptpd
